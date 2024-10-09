@@ -1,14 +1,58 @@
-h1 {
-    font-family: "Roboto", sans-serif;
+body {
+    background-color: blanchedalmond;
+    font-family:  "Roboto", sans-serif;
+    font-size: 100%;
+}
+
+header, main, footer {
+    min-width: 855px;
+}
+
+header .container, main .container, footer .container {
+    max-width: 855px;
+    margin: auto;
+}
+header {
+    background-color: white;
+    overflow: auto;
+}
+
+header h1 {
+    float: left;
+    width: 570 px;
     font-size: xx-large;
 }
 
+header nav {
+    float: right;
+    width: 285;
+}
+
+main {
+    background-color: white;
+    overflow: auto;
+}
+
+main .left {
+    float: left;
+    width: 570 px;
+}
+
+main .right {
+    float: right;
+    width: 285 px;
+}
+
 h2 {
-    font-family: "Roboto", sans-serif;
     font-size: x-large;
 }
 
-body {
-    font-family: "Roboto", sans-serif;
-    font-size: 100%;
+footer .left {
+    float: left;
+    width: 570 px;
+}
+
+footer .sitemap {
+    float: right;
+    width: 285 px;
 }
