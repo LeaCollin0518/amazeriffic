@@ -12,8 +12,11 @@ header .container, main .container, footer .container {
     max-width: 855px;
     margin: auto;
 }
+
 header {
     background-color: white;
+    font-family:  "Ubuntu", sans-serif;
+    font-weight: 900;
     overflow: auto;
 }
 
@@ -21,11 +24,13 @@ header h1 {
     float: left;
     width: 570 px;
     font-size: xx-large;
+    padding-top: 25px;
 }
 
 header nav {
     float: right;
     width: 285;
+    padding-top: 5px;
 }
 
 main {
@@ -41,10 +46,34 @@ main .left {
 main .right {
     float: right;
     width: 285 px;
+    padding-bottom: 5px;
 }
 
 h2 {
     font-size: x-large;
+    font-family:  "Ubuntu", sans-serif;
+    font-weight: 700;
+    padding-top: 25px;
+}
+
+h3 {
+    font-size: large;
+    font-family:  "Ubuntu", sans-serif;
+    font-weight: 600;
+    padding-top: 25px;
+}
+
+h5 {
+    font-size: large;
+    font-family:  "Ubuntu", sans-serif;
+    font-weight: 500;
+    padding-top: 5px;
+}
+
+ul {
+    list-style-type: disc;
+    margin-inline-start: 1em;
+    margin-bottom: 1em; 
 }
 
 footer .left {
